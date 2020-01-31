@@ -1,0 +1,260 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "service center agent",
+            "intents": [{
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CreateServiceRequest",
+                    "slots": [],
+                    "samples": [
+                        "create a service report",
+                        "Create a case"
+                    ]
+                },
+                {
+                    "name": "CreateAnEmergencyCase",
+                    "slots": [],
+                    "samples": [
+                        "My vehicle brokedown on the way",
+                        "My vehicle met with an accident",
+                        "I met with an Accident"
+                    ]
+                },
+                {
+                    "name": "CreateACaseComment",
+                    "slots": [],
+                    "samples": [
+                        "special note for service center",
+                        "create a case comment",
+                        "I've a note for the service"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "freeFormTextIntent",
+                    "slots": [{
+                        "name": "freeFormTextSlot",
+                        "type": "FreeFormTextSlot"
+                    }],
+                    "samples": [
+                        "user is {freeFormTextSlot}",
+                        "{freeFormTextSlot}"
+                    ]
+                },
+                {
+                    "name": "NumberIntent",
+                    "slots": [{
+                            "name": "numberSlot",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "wordNumberSlot",
+                            "type": "AMAZON.Ordinal"
+                        }
+                    ],
+                    "samples": [
+                        "Case {numberSlot}",
+                        "{wordNumberSlot} case",
+                        "{wordNumberSlot}",
+                        "{numberSlot}"
+                    ]
+                }
+            ],
+            "types": [{
+                    "name": "FreeFormTextSlot",
+                    "values": [{
+                            "name": {
+                                "value": "make a type specimen book"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "It is a long established fact"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "variations of passage"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first line"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "by Cicero, written"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Extremes of Good and Evil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bonorum "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "de Finibus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ipsum passages"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "desktop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "accident"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "web sites"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "variations"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The standard chunk of Lorem Ipsum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "If you use this site regularly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sections 1.10.32 and 1.10.33"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Many desktop publishing packages and web page"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "and more recent"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "caseNumberSlot",
+                    "values": [{
+                            "name": {
+                                "value": "sixth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tenth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ninth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eighth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seventh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fifth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fourth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "third"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "second"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
