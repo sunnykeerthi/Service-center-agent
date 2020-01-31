@@ -40,7 +40,7 @@ As a service center agent, one can create the below tasks.
 
 14.  Copy the ARN in the top right to a notepad.
 	
-	![ARN](https://i.ibb.co/wS5VfpQ/Screen-Shot-2020-01-31-at-2-56-10-PM.png)
+![ARN](https://i.ibb.co/wS5VfpQ/Screen-Shot-2020-01-31-at-2-56-10-PM.png)
 
 
 ### Amazon Developer Console
