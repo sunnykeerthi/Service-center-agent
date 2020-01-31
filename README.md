@@ -8,9 +8,9 @@ As a service center agent, one can create the below tasks.
 -   Update service requests.
 -   Add case comments to existing service requests.
 
-Alexa Setup
+## Alexa Setup
 
-AWS Console
+### AWS Console
 
 1.  Navigate [here](https://github.com/sunnykeerthi/Service-center-agent/blob/master/index.js) to get the code.
 2.  Clone the code into local repo.
@@ -40,7 +40,7 @@ AWS Console
 ![ARN](https://i.ibb.co/wS5VfpQ/Screen-Shot-2020-01-31-at-2-56-10-PM.png)
 
 
-Amazon Developer Console
+### Amazon Developer Console
 
 1. Navigate to [link] for code.
 2. Login to [Developer Console](https://developer.amazon.com/).
@@ -55,7 +55,7 @@ Amazon Developer Console
 
 We are done (Partially) building the skill.
 
-Updating the Model
+## Updating the Model
 
 1. Navigate back to AWS Console. And let’s fill in the Environment variables that we created earlier.
 2. For APP_ID the value should be **Your Skill ID** you copied in the previous step.
@@ -64,7 +64,7 @@ Updating the Model
 
 Now we have a full fledge skill built. Where both Alexa and our lambda function are connected.
 
-Finalizing the Model
+## Finalizing the Model
 
 As final steps, we need to link our Salesforce Account with Alexa so that we can start communicating with the platform.
 
