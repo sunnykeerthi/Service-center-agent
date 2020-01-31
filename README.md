@@ -11,7 +11,7 @@ As a service center agent, one can create the below tasks.
 
 ### AWS Console
 
-1.  Navigate [here](https://github.com/sunnykeerthi/Service-center-agent/blob/master/index.js) to get the code.
+1.  Navigate [here](https://github.com/sunnykeerthi/Service-center-agent) to get the code.
 2.  Clone the code into local repo.
 3.  Open your favorite IDE and follow the below steps.
 	1.  cd [folder name].
